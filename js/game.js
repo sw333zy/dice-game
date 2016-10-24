@@ -20,13 +20,19 @@
         console.log(total);
 
         if (total === 11){
-        alert('You Win');
+        document.querySelector('.message').innerText = 'You Win';
+        // alert('You Win');
       } else if (total === 7){
-      alert('You Win');
+        document.querySelector('.message').innerText = 'You Win';
+      // alert('You Win');
+      } else if (total === ){
+        document.querySelector('.message').innerText = 'Try Again';
+      }
     }
 
         document.querySelector('.dice aside:first-child').innerText = dieOne;
         document.querySelector('.dice aside:last-child').innerText = dieTwo;
+        document.querySelector('.result').innerText = total;
 
 
 
