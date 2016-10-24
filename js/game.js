@@ -25,9 +25,9 @@
       } else if (total === 7){
         document.querySelector('.message').innerText = 'You Win';
       // alert('You Win');
-      } else if (total === 5){
+    } else if (total === 1, 2, 3, 4, 5, 6, 9, 10, 12){
           document.querySelector('.message').innerText = 'Try Again';
-        // alert('You Win');
+        // alert('Try Again');
         }
 
         document.querySelector('.dice aside:first-child').innerText = dieOne;
