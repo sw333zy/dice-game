@@ -6,9 +6,17 @@
     // access (or change) for the contents of that element.
 
     document.querySelector('button').addEventListener('click', function buttonClicked() {
+        console.log('working');
 
         var dieNumOne = document.querySelector('.dice aside:first-child').innerText;
-        console.log(dieNumOne);
+
+
+
+        var dieOne = Math.floor(Math.random()* 6 + 1);
+        console.log(dieOne);
+        var dieTwo = Math.floor(Math.random()* 6 + 1);
+        console.log(dieTwo);
+
 
     });
 
