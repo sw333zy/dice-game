@@ -25,10 +25,10 @@
       } else if (total === 7){
         document.querySelector('.message').innerText = 'You Win';
       // alert('You Win');
-      } else if (total === ){
-        document.querySelector('.message').innerText = 'Try Again';
-      }
-    }
+      } else if (total === 5){
+          document.querySelector('.message').innerText = 'Try Again';
+        // alert('You Win');
+        }
 
         document.querySelector('.dice aside:first-child').innerText = dieOne;
         document.querySelector('.dice aside:last-child').innerText = dieTwo;
