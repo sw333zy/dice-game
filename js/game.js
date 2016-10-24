@@ -16,9 +16,24 @@
         console.log(dieOne);
         var dieTwo = Math.floor(Math.random()* 6 + 1);
         console.log(dieTwo);
+        var total = dieOne + dieTwo;
+        console.log(total);
+
+        if (total === 11){
+        alert('You Win');
+      } else if (total === 7){
+      alert('You Win');
+    }
+
+        dieNumOne.innerText = dieOne;
+
 
 
     });
 
 
 })();
+
+
+
+//
