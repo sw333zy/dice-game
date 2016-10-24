@@ -8,7 +8,7 @@
     document.querySelector('button').addEventListener('click', function buttonClicked() {
         console.log('working');
 
-        var dieNumOne = document.querySelector('.dice aside:first-child').innerText;
+        var dieNumOne = document.querySelector('.dice aside:first-child').innerText; // 1
 
 
 
@@ -25,7 +25,8 @@
       alert('You Win');
     }
 
-        dieNumOne.innerText = dieOne;
+        document.querySelector('.dice aside:first-child').innerText = dieOne;
+        document.querySelector('.dice aside:last-child').innerText = dieTwo;
 
 
 
