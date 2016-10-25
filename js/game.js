@@ -20,26 +20,34 @@
         console.log(total);
 
         if (total === 11){
-        document.querySelector('.message').innerText = 'You Win';
+        document.querySelector('.result').innerText = 'You Win';
         // alert('You Win');
       } else if (total === 7){
-        document.querySelector('.message').innerText = 'You Win';
+        document.querySelector('.result').innerText = 'You Win';
       // alert('You Win');
     } else if (total === 1, 2, 3, 4, 5, 6, 9, 10, 12){
-          document.querySelector('.message').innerText = 'Try Again';
+          document.querySelector('.result').innerText = 'Try Again';
         // alert('Try Again');
         }
 
         document.querySelector('.dice aside:first-child').innerText = dieOne;
         document.querySelector('.dice aside:last-child').innerText = dieTwo;
-        document.querySelector('.result').innerText = total;
+        // document.querySelector('.result').innerText = total;
 
 
 
     });
 
 
+
+
 })();
+
+var now = new Date();
+
+console.log(now);
+console.log(now.getFullYear(), now.getMonth(), now.getDay(), now.getdate());
+console.log
 
 
 

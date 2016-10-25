@@ -1,3 +1,6 @@
-.dice .die1 .die2{
-  border-box: 2px solid $themeColor;
-}
+  .dice aside{
+        display: inline-block;
+        border: 2px solid #000000;
+      
+        font-size: 30px;
+    }

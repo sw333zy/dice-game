@@ -1,7 +1,20 @@
 h1 {
-  color: #ffcc33; }
+  color: #000000; }
 
-body {
-  border: 2px solid #ffcc33; }
+main {
+  border-radius: 14px;
+  border: 1px solid #000000;
+  background-color: #D3D3D3;
+  padding: 10px;
+  color: #000000;
+  text-align: center;
+  outline: 5px solid #000000;
+  outline-offset: 5px;
+  width: 50%; }
+
+.dice aside {
+  display: inline-block;
+  border: 2px solid #000000;
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
